@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyAway</title>
+    <link rel="stylesheet" href="Travel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo"><img src="./Designer (3).png" alt=""></div>
+        <ul>
+            <li><a href="IslamExpress.html">Home</a></li>
+            <li><a href="BestFlights.html">Best</a></li>
+            <li><a href="Join.html">Join</a></li>
+            <li><a href="Blog.html">About</a></li>
+            <li><a href="FlightsBook.html">Flights</a></li>
+
+        </ul>
+    </div>
+    <div class="Flightwhy">
+        <h1>Just the perfect flight</h1>
+        <p>Flight at the right price at the right time</p>
+        <img src="https://static1.simpleflyingimages.com/wordpress/wp-content/uploads/2023/06/shutterstock_2056218710-2.jpg"
+            alt="">
+        <button onclick="Perfect()">Read More</button>
+    </div>
+    <div class="bordertopb">
+        <div class="Flightwhy">
+            <h1>Destinations</h1>
+            <p>From China to South Africa to the United States and more</p>
+            <img src="https://blog.studentlifenetwork.com/wp-content/uploads/2019/05/SLN-Blog-8Destinations-1537x952-1.jpg"
+                alt="">
+            <button onclick="Destinations()">Read More</button>
+
+        </div>
+    </div>
+    <script>
+        function Perfect() {
+            window.location.href = 'Flight.html';
+        }
+
+        function Destinations() {
+            window.location.href = 'Destinations.html';
+        }
+    function Thanks() {
+            alert("Thanks for subscribing");
+        }
+    </script>
+
+    <div class="Newsletter">
+        <h1>Subscribe</h1>
+        <div class="FillOut">
+            <form onsubmit="Thanks()">
+                <input type="text" placeholder="Enter your name" required>
+
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit">Submit</button>
+        </div>
+        </form>
+        <img src="https://s3.amazonaws.com/ceblog/wp-content/uploads/2012/04/09114839/email-3543958_1280.jpg"
+            alt="">
+
+    </div>
+<footer class="footer">
+    <div class="social"><p>Copyright &copy; 2024 - FlyAway</p>
+        <a href="https://facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="https://youtube.com"><i class="fab fa-youtube fa-2x"></i></a>
+        <a href="https://linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="https://twitter.com"><i class="fa-brands fa-x-twitter fa-2x"></i></a>
+        
+    </div>
+
+    
+</footer>
+
+</body>
+
+
+</html>
